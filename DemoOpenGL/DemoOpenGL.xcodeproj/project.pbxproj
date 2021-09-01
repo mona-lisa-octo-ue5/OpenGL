@@ -18,6 +18,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		6409FCC326DF09AE00ADADDC /* SoulOut.fsh */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.glsl; path = SoulOut.fsh; sourceTree = "<group>"; };
+		6409FCC426DF09B700ADADDC /* SoulOut.vsh */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.glsl; path = SoulOut.vsh; sourceTree = "<group>"; };
+		6409FCC626DF0C1500ADADDC /* Shake.fsh */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.glsl; path = Shake.fsh; sourceTree = "<group>"; };
+		6409FCC726DF0C2200ADADDC /* Shake.vsh */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.glsl; path = Shake.vsh; sourceTree = "<group>"; };
 		64C80B9F26DCF7C6006BED12 /* DemoOpenGL.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DemoOpenGL.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		64C80BA226DCF7C6006BED12 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		64C80BA326DCF7C6006BED12 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -32,6 +36,8 @@
 		64C80BB426DCF7C8006BED12 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		64C80BBD26DCFEFF006BED12 /* Normal.fsh */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.glsl; path = Normal.fsh; sourceTree = "<group>"; };
 		64C80BBF26DD0CB0006BED12 /* Normal.vsh */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.glsl; path = Normal.vsh; sourceTree = "<group>"; };
+		64C80BC126DD0DEE006BED12 /* Scale.fsh */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.glsl; path = Scale.fsh; sourceTree = "<group>"; };
+		64C80BC226DD0ED7006BED12 /* Scale.vsh */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.glsl; name = Scale.vsh; path = ../../../../../Documents/Scale.vsh; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -45,6 +51,24 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6409FCC126DF097F00ADADDC /* SoulOut */ = {
+			isa = PBXGroup;
+			children = (
+				6409FCC326DF09AE00ADADDC /* SoulOut.fsh */,
+				6409FCC426DF09B700ADADDC /* SoulOut.vsh */,
+			);
+			path = SoulOut;
+			sourceTree = "<group>";
+		};
+		6409FCC526DF0C0100ADADDC /* Shake */ = {
+			isa = PBXGroup;
+			children = (
+				6409FCC626DF0C1500ADADDC /* Shake.fsh */,
+				6409FCC726DF0C2200ADADDC /* Shake.vsh */,
+			);
+			path = Shake;
+			sourceTree = "<group>";
+		};
 		64C80B9626DCF7C6006BED12 = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +107,9 @@
 		64C80BBB26DCFD18006BED12 /* Shader */ = {
 			isa = PBXGroup;
 			children = (
+				6409FCC526DF0C0100ADADDC /* Shake */,
+				6409FCC126DF097F00ADADDC /* SoulOut */,
+				64C80BC026DD0DD7006BED12 /* Scale */,
 				64C80BBC26DCFD3B006BED12 /* Normal */,
 			);
 			path = Shader;
@@ -95,6 +122,15 @@
 				64C80BBF26DD0CB0006BED12 /* Normal.vsh */,
 			);
 			path = Normal;
+			sourceTree = "<group>";
+		};
+		64C80BC026DD0DD7006BED12 /* Scale */ = {
+			isa = PBXGroup;
+			children = (
+				64C80BC126DD0DEE006BED12 /* Scale.fsh */,
+				64C80BC226DD0ED7006BED12 /* Scale.vsh */,
+			);
+			path = Scale;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
