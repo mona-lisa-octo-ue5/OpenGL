@@ -22,6 +22,8 @@
 		6409FCC426DF09B700ADADDC /* SoulOut.vsh */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.glsl; path = SoulOut.vsh; sourceTree = "<group>"; };
 		6409FCC626DF0C1500ADADDC /* Shake.fsh */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.glsl; path = Shake.fsh; sourceTree = "<group>"; };
 		6409FCC726DF0C2200ADADDC /* Shake.vsh */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.glsl; path = Shake.vsh; sourceTree = "<group>"; };
+		6409FCC926DF127200ADADDC /* ShineWhite.fsh */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.glsl; path = ShineWhite.fsh; sourceTree = "<group>"; };
+		6409FCCA26DF127E00ADADDC /* ShineWhite.vsh */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.glsl; path = ShineWhite.vsh; sourceTree = "<group>"; };
 		64C80B9F26DCF7C6006BED12 /* DemoOpenGL.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DemoOpenGL.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		64C80BA226DCF7C6006BED12 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		64C80BA326DCF7C6006BED12 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -69,6 +71,15 @@
 			path = Shake;
 			sourceTree = "<group>";
 		};
+		6409FCC826DF124F00ADADDC /* ShineWhite */ = {
+			isa = PBXGroup;
+			children = (
+				6409FCC926DF127200ADADDC /* ShineWhite.fsh */,
+				6409FCCA26DF127E00ADADDC /* ShineWhite.vsh */,
+			);
+			path = ShineWhite;
+			sourceTree = "<group>";
+		};
 		64C80B9626DCF7C6006BED12 = {
 			isa = PBXGroup;
 			children = (
@@ -107,6 +118,7 @@
 		64C80BBB26DCFD18006BED12 /* Shader */ = {
 			isa = PBXGroup;
 			children = (
+				6409FCC826DF124F00ADADDC /* ShineWhite */,
 				6409FCC526DF0C0100ADADDC /* Shake */,
 				6409FCC126DF097F00ADADDC /* SoulOut */,
 				64C80BC026DD0DD7006BED12 /* Scale */,
